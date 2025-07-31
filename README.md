@@ -1,70 +1,168 @@
-# Getting Started with Create React App
+# Quantasip GIS - React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React-based web application for Quantasip GIS services, featuring interactive maps, user tracking, and comprehensive business solutions.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Interactive Maps**: Built with Leaflet and React-Leaflet
+- **User Analytics**: Page visit tracking with coin rewards system
+- **Responsive Design**: Modern UI with CSS Modules
+- **SEO Optimized**: Dynamic page titles and meta tags
+- **Cookie Management**: GDPR-compliant cookie consent
+- **PDF Support**: Document viewing capabilities
 
-### `npm start`
+## 📋 Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js (v16 or higher)
+- npm or yarn
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Installation
 
-### `npm test`
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd quantasip-react
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### `npm run build`
+3. **Start development server**
+   ```bash
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📜 Available Scripts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Command | Description |
+|---------|-------------|
+| `npm start` | Runs the app in development mode |
+| `npm run build` | Builds the app for production |
+| `npm test` | Launches the test runner |
+| `npm run lint` | Runs ESLint to check code quality |
+| `npm run lint:fix` | Automatically fixes ESLint issues |
+| `npm run format` | Formats code with Prettier |
+| `npm run format:check` | Checks code formatting |
 
-### `npm run eject`
+## 🏗️ Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+src/
+├── components/          # Reusable UI components
+│   ├── Header.js       # Navigation and branding
+│   ├── Footer.js       # Site footer
+│   ├── FAQChatWidget.js # Interactive chat widget
+│   └── ...
+├── pages/              # Page components
+│   ├── Home.js         # Landing page
+│   ├── Services.js     # Services overview
+│   ├── About.js        # Company information
+│   └── ...
+├── App.js              # Main application component
+└── index.js            # Application entry point
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Configuration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Environment Variables
+Create a `.env` file in the root directory:
+```env
+REACT_APP_API_URL=https://qb.quantasip.com/api
+REACT_APP_ANALYTICS_ENABLED=true
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### API Integration
+The application integrates with the Quantasip API for:
+- User visit tracking
+- Coin balance management
+- Analytics data
 
-## Learn More
+## 🧪 Testing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Run all tests
+npm test
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Run tests in watch mode
+npm test -- --watch
 
-### Code Splitting
+# Generate coverage report
+npm test -- --coverage
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Deployment
 
-### Analyzing the Bundle Size
+### Production Build
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Deployment Options
+- **Netlify**: Drag and drop the `build` folder
+- **Vercel**: Connect your GitHub repository
+- **AWS S3**: Upload build files to S3 bucket
+- **Traditional hosting**: Upload build files to your web server
 
-### Making a Progressive Web App
+## 📊 Performance
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Bundle Analysis**: Use `npm run build` and analyze the generated files
+- **Lighthouse**: Run Lighthouse audits for performance optimization
+- **Web Vitals**: Built-in Core Web Vitals tracking
 
-### Advanced Configuration
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-### Deployment
+## 📝 Code Style
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project uses:
+- **ESLint** for code linting
+- **Prettier** for code formatting
+- **Husky** for pre-commit hooks
 
-### `npm run build` fails to minify
+## 🐛 Troubleshooting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Common Issues
+
+1. **Port 3000 already in use**
+   ```bash
+   # Kill the process using port 3000
+   npx kill-port 3000
+   ```
+
+2. **Build fails**
+   ```bash
+   # Clear cache and reinstall
+   rm -rf node_modules package-lock.json
+   npm install
+   ```
+
+3. **ESLint errors**
+   ```bash
+   # Auto-fix linting issues
+   npm run lint:fix
+   ```
+
+## 📄 License
+
+This project is proprietary software owned by Quantasip.
+
+## 📞 Support
+
+For support and questions:
+- Email: support@quantasip.com
+- Documentation: [Internal Wiki]
+- Issues: [GitHub Issues]
+
+---
+
+**Built with ❤️ by the Quantasip Development Team**
