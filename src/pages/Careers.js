@@ -13,102 +13,7 @@ const companyStory = [
   }
 ];
 
-const jobs = [
-  {
-    id: 1056,
-    title: 'Java Developer',
-    url: 'https://quantasip.com/jobs/java-developer/',
-    posted: 'Posted 10 months ago',
-    about: 'We are looking for a talented Java Backend Developer to join our team. You will play a crucial role in developing and maintaining backend services, ensuring they are robust, scalable, and efficient. This position is perfect for someone who enjoys solving complex problems and working with modern technologies.',
-    details: [
-      'Role: Java Developer',
-      'Location: Pune',
-      'Experience: 5+ Years',
-      'Job Type: Full Time',
-    ],
-  },
-  {
-    id: 636,
-    title: 'Software Developer Intern',
-    url: 'https://quantasip.com/jobs/software-developer-intern/',
-    posted: 'Posted 11 months ago',
-    about: '',
-    details: [],
-    company: 'QUANTA SIP',
-  },
-];
-
-const team = [
-  {
-    name: 'Javed Shaikh',
-    role: 'Technical Director',
-    linkedin: 'https://www.linkedin.com/in/javeds',
-  },
-  {
-    name: 'Aafreen Shaikh',
-    role: 'CFO',
-    linkedin: 'https://www.linkedin.com/in/aafreen-shaikh-016a47280/',
-  },
-  {
-    name: 'Deepak Patil',
-    role: 'General Manager',
-    exp: '25+ Yrs Experience',
-  },
-  {
-    name: 'Laxman Punekar',
-    role: 'Project Manager',
-    exp: '15+ Yrs Experience',
-    linkedin: 'https://www.linkedin.com/in/laxman-punekar-a28b3022/',
-  },
-  {
-    name: 'Anjali Karvekar',
-    role: 'HR Executive',
-    exp: '2+ Yrs Experience',
-    linkedin: 'https://www.linkedin.com/in/anjali-karvekar-a0a54a211/',
-  },
-  {
-    name: 'Jalindar Karande',
-    role: 'Team Lead(IT)',
-    exp: '3+ Yrs Experience',
-    linkedin: 'https://www.linkedin.com/in/jalindar-karande-464186154/?originalSubdomain=in',
-  },
-  {
-    name: 'Onkar Keskar',
-    role: 'Techno-Commercial GIS',
-    exp: '9+ Yrs Experience',
-    linkedin: 'https://www.linkedin.com/in/onkar-keskar-104768100/',
-  },
-  {
-    name: 'Ameer Shaikh',
-    role: 'Sr.GIS Executive',
-    exp: '6+ Yrs Experience',
-    linkedin: 'https://www.linkedin.com/in/ameer-shaikh-55431a145/',
-  },
-  {
-    name: 'Nikhil Sheth',
-    role: 'Team Lead(GIS)',
-    exp: '2+ Yrs Experience',
-    linkedin: 'https://www.linkedin.com/in/nikhil-sheth-a64607260/',
-  },
-  {
-    name: 'Bharat Birangal',
-    role: 'Sr. GIS Executive',
-    exp: '2+ Yrs Experience',
-    linkedin: 'https://www.linkedin.com/in/bharat-birangal-97089a137/',
-  },
-  {
-    name: 'Rohan Sardeshmukh',
-    role: 'Team Lead(IT)',
-    exp: '2+ Yrs Experience',
-    linkedin: 'https://www.linkedin.com/in/rohansardeshmukh/',
-  },
-  {
-    name: 'Bhavesh Kolhe',
-    role: 'Marketing Executive',
-    exp: '2+ Yrs Experience',
-    linkedin: 'https://www.linkedin.com/in/bhawesh-k-a94bb1319/',
-  },
-];
+const jobs = [];
 
 function getOrCreateUserId() {
   let userId = localStorage.getItem('quanta_user_id');
@@ -145,7 +50,7 @@ function Careers() {
       <section className={styles.jobsSection} id="scroll-down">
         <div style={{marginTop: 60, marginBottom: 32}}>
           <h2 className={styles.sectionTitle}>Careers at QuantaSIP</h2>
-          <h3 className={styles.sectionSubtitle}>We're always on the lookout for talented and passionate individuals to join our team. Here are our current job openings.</h3>
+          <h3 className={styles.sectionSubtitle}>We&apos;re always on the lookout for talented and passionate individuals to join our team. Here are our current job openings.</h3>
         </div>
         <div className={styles.searchBarSection}>
           <input

@@ -26,7 +26,7 @@ function TermsOfService() {
           <div className={styles.heroBg} style={{backgroundImage: 'url(/uploads/2024/08/isometric-view-3d-rendering-neon-city-scaled.jpg)'}}></div>
           <div className={styles.heroContent}>
             <h1>Terms of Service</h1>
-            <h5 className={styles.heroSubtitle}>By accessing and using this GIS portfolio website, you agree to comply with and be bound by the following terms and conditions ("Terms of Service"). If you do not agree to these Terms of Service, please refrain from using our Website.</h5>
+            <h5 className={styles.heroSubtitle}>By accessing and using this GIS portfolio website, you agree to comply with and be bound by the following terms and conditions (&quot;Terms of Service&quot;). If you do not agree to these Terms of Service, please refrain from using our Website.</h5>
             <a href="#scroll-down" className={styles.scrollDown} onClick={handleScrollDown}>
               <svg aria-hidden="true" viewBox="0 0 512 512" width="40" height="40"><path d="M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-143.6-28.9L288 302.6V120c0-13.3-10.7-24-24-24h-16c-13.3 0-24 10.7-24 24v182.6l-72.4-75.5c-9.3-9.7-24.8-9.9-34.3-.4l-10.9 11c-9.4 9.4-9.4 24.6 0 33.9L239 404.3c9.4 9.4 24.6 9.4 33.9 0l132.7-132.7c9.4-9.4 9.4-24.6 0-33.9l-10.9-11c-9.5-9.5-25-9.3-34.3.4z" fill="#fff"/></svg>
             </a>
@@ -57,7 +57,7 @@ function TermsOfService() {
         </section>
         <section className={styles.termsSection}>
           <h2 style={{color: 'rgb(24, 49, 83)'}}>Disclaimer of Warranties</h2>
-          <p>We provide our Website on an "as is" and "as available" basis without any warranties, whether expressed or implied. We disclaim any warranties, including but not limited to merchantability, fitness for a particular purpose, or non-infringement. Your use of the Website is at your own risk.</p>
+          <p>We provide our Website on an &quot;as is&quot; and &quot;as available&quot; basis without any warranties, whether expressed or implied. We disclaim any warranties, including but not limited to merchantability, fitness for a particular purpose, or non-infringement. Your use of the Website is at your own risk.</p>
         </section>
         <section className={styles.termsSection}>
           <h2 style={{color: 'rgb(24, 49, 83)'}}>Limitation of Liability</h2>

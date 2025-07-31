@@ -493,7 +493,7 @@ function Home() {
           </section>
           {/* Awards & Recognition */}
           <section className={styles.awardsSection}>
-            <h2>"Our organization is thrilled to receive the Geospatia Startup of the Year Award for GeoSpatia-24."</h2>
+            <h2>&quot;Our organization is thrilled to receive the Geospatia Startup of the Year Award for GeoSpatia-24.&quot;</h2>
             <div className={styles.awardImages}>
               <img src="/uploads/2024/08/WhatsApp-Image-2024-04-03-at-15.50-1.png" alt="Award 1" />
               <img src="/uploads/2024/08/WhatsApp-Image-2024-04-03-at-15.50-2.png" alt="Award 2" />
@@ -503,11 +503,11 @@ function Home() {
               <img src="/uploads/2024/09/WhatsApp-Image-2024-09-10-at-11.41.26-1024x837.jpeg" alt="Lokmat 1" />
               <img src="/uploads/2024/09/lokmat_1-2.jpeg" alt="Lokmat 2" />
             </div>
-            <h2>"Our Technical Director Javed Sheikh, featured in Geospatial Artha Magazine Volume 2. Honored to be positioned alongside the Industry Leaders!!"</h2>
+            <h2>&quot;Our Technical Director Javed Sheikh, featured in Geospatial Artha Magazine Volume 2. Honored to be positioned alongside the Industry Leaders!!&quot;</h2>
             <a href="https://issuu.com/geospatialworld/docs/geospatial_artha_sept-oct_2023_digital_edition" target="_blank" rel="noopener noreferrer">
               <img src="/uploads/2024/09/Screenshot-2024-09-11-at-11.57.23%E2%80%AFAM.png" alt="Magazine" />
             </a>
-            <h2>We've Sponsored</h2>
+            <h2>We&apos;ve Sponsored</h2>
             <div className={styles.sponsorImages}>
               <img src="/uploads/2024/09/images.jpeg" alt="Sponsor 1" />
               <img src="/uploads/2024/09/images-2.png" alt="Sponsor 2" />

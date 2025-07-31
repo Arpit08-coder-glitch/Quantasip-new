@@ -135,7 +135,7 @@ function Contact() {
 
       {/* Main Contact Section */}
       <section className={styles.mainContactSection} id="main-contact">
-        <h2 className={styles.contactHeading}>Let's get in Touch</h2>
+        <h2 className={styles.contactHeading}>Let&apos;s get in Touch</h2>
         <div className={styles.contactGrid}>
           {/* Left: Contact Info */}
           <div className={styles.contactInfoCol}>
@@ -157,7 +157,7 @@ function Contact() {
               <span className={styles.contactInfoIcon}>📍</span>
               <div>
                 <div className={styles.contactInfoLabel}>Office Address</div>
-                <div className={styles.contactInfoValue}>404, Wall Street 24, near McDonald's, Motiram Nagar, Warje, Pune, Maharashtra 411058</div>
+                <div className={styles.contactInfoValue}>404, Wall Street 24, near McDonald&apos;s, Motiram Nagar, Warje, Pune, Maharashtra 411058</div>
               </div>
             </div>
           </div>

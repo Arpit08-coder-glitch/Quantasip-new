@@ -76,7 +76,7 @@ export default function CookieConsent() {
       aria-live="polite"
     >
       <span>
-        We use cookies to enhance your experience. By clicking "Accept all cookies", you agree to our privacy policy.
+        We use cookies to enhance your experience. By clicking &quot;Accept all cookies&quot;, you agree to our privacy policy.
       </span>
       <button className={styles.cookieConsentBtn} onClick={acceptCookies}>
         Accept all cookies

@@ -159,8 +159,9 @@ const Services = () => {
             <h2 style={{ fontWeight: 700, fontSize: '1.7rem', marginBottom: 8 }}>Comprehensive GIS Solutions for Infrastructure Development</h2>
             <h4 style={{ fontWeight: 500, color: '#444', marginBottom: 8 }}>End-to-End GIS Services for Your Project Needs</h4>
             <p style={{ color: '#333', fontSize: '1.1rem' }}>
-              At QuantaSIP GIS Pvt Ltd, we offer comprehensive GIS Solutions for infrastructure development projects. Our team of experts has a strong understanding of mapping technology, and our expertise ranges from survey to mapping across various industries, including electrical, agriculture, navigation, and infrastructure. We provide end-to-end GIS Services, from data collection to analysis, ensuring that your project needs are met with accuracy and efficiency. Our commitment to innovation and excellence has made us a trusted partner for some of India's most prestigious and challenging projects. Trust us to provide the best GIS Solutions for your project needs.
-            </p>
+  At QuantaSIP GIS Pvt Ltd, we offer comprehensive GIS Solutions for infrastructure development projects. Our team of experts has a strong understanding of mapping technology, and our expertise ranges from survey to mapping across various industries, including electrical, agriculture, navigation, and infrastructure. We provide end-to-end GIS Services, from data collection to analysis, ensuring that your project needs are met with accuracy and efficiency. Our commitment to innovation and excellence has made us a trusted partner for some of India&apos;s most prestigious and challenging projects. Trust us to provide the best GIS Solutions for your project needs.
+</p>
+
           </section>
 
           {/* Service 1 Section */}
@@ -172,7 +173,7 @@ const Services = () => {
             <div className={styles.servicePointersRow}>
               <div className={styles.serviceCardPointer}>Procured Govt Cadastral Data under RoR for Multiple States (100% Available)</div>
               <div className={styles.serviceCardPointer}>Data Collection in Progress for Multiple States (UP, Rajasthan, Gujarat, Bihar, Assam, Chhattisgarh, West Bengal)</div>
-              <div className={styles.serviceCardPointer}>“Local Govt Directory Code Mapped to Census Villages (Pan-India)”</div>
+              <div className={styles.serviceCardPointer}>&quot;Local Govt Directory Code Mapped to Census Villages (Pan-India)&quot;</div>
               <div className={styles.serviceCardPointer}>Physical Maps Digitized</div>
               <div className={styles.serviceCardPointer}>Boundaries Available at Multiple Levels (District, Tehsil, Pincode, and Village)</div>
             </div>
@@ -195,7 +196,7 @@ const Services = () => {
           {/* Technology & Process Section */}
           <section style={{ maxWidth: 900, margin: '0 auto', padding: '2rem 1rem' }}>
             <p style={{ color: '#333', fontSize: '1.05rem' }}><strong>Process of Geo-referencing</strong></p>
-            <p style={{ color: '#333', fontSize: '1.05rem' }}>We Bridge the Mismatch in Boundaries Between Govt's Cadastral Data and Open-Source Satellite Imagery</p>
+            <p style={{ color: '#333', fontSize: '1.05rem' }}>We Bridge the Mismatch in Boundaries Between Govt&apos;s Cadastral Data and Open-Source Satellite Imagery</p>
             <p style={{ color: '#333', fontSize: '1.05rem' }}>Process 1: Geo-referencing of raw cadastral data</p>
             <img src={process1Img} alt="Geo-referencing" style={{ width: '100%', maxWidth: 600, borderRadius: 8, margin: '12px 0' }} />
             <p style={{ color: '#333', fontSize: '1.05rem' }}>Process 2: Correcting cadastral data with satellite imagery</p>

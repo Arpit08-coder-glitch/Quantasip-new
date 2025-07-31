@@ -88,7 +88,7 @@ const Footer = () => {
         <ul className={styles.footerContactList}>
           <li><span className={styles.footerIcon}>✉️</span> info@quantasip.com</li>
           <li><span className={styles.footerIcon}>📞</span> +91 7517860524</li>
-          <li><span className={styles.footerIcon}>📍</span>404, Wall Street 24, near McDonald's, Motiram Nagar, Warje, Pune, Maharashtra 411058</li>
+          <li><span className={styles.footerIcon}>📍</span>404, Wall Street 24, near McDonald&apos;s, Motiram Nagar, Warje, Pune, Maharashtra 411058</li>
           <li><span className={styles.footerIcon}>🌐</span> Experts in GIS, Mapping & Geospatial Solutions</li>
         </ul>
       </div>
