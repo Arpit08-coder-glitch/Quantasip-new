@@ -130,13 +130,13 @@ function AppContent() {
     left: '10px',
     opacity: 0,
     transition: 'opacity 0.3s',
-    fontSize: '12px',
+    fontSize: '6px',
     zIndex: 10,
   }}
   onMouseEnter={e => e.currentTarget.style.opacity = 1}
   onMouseLeave={e => e.currentTarget.style.opacity = 0}
 >
-  👨‍💻 Created By Arpit Singh
+  Created By Arpit Singh
 </a>
     </>
   );
